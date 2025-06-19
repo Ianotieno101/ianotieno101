@@ -4,7 +4,7 @@ Welcome to my personal web development portfolio! This site showcases a selectio
 
 ## 🚀 Live Preview
 
-🌐 [Visit Live Portfolio](https://IanorezzPortfolio.vercel.app)
+🌐 [Visit Live Portfolio](https://ianotieno101.vercel.app/)
 
 ## 🛠 Tech Stack
 
