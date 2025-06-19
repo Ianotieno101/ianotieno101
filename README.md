@@ -9,10 +9,10 @@ Welcome to my personal web development portfolio! This site showcases a selectio
 ## 🛠 Tech Stack
 
 - **HTML5**
-- **CSS3**
+- **CSS3, SCSS(under the hood)**
 - **JavaScript**
 - **Responsive Design**
-- (Optional: **PHP**, **MySQL**, **Bootstrap**, etc.)
+- (Optional: **PHP**, **MySQL**, **Bootstrap**, etc. to be added later on, or no backend at all!)
 
 
 ## 📁 Features
@@ -28,7 +28,7 @@ Welcome to my personal web development portfolio! This site showcases a selectio
 portfolio/
 │
 ├── index.html
-├── css/
+├── css (SCSS)/
 │ └── assets/styles.css
 ├── js/
 │ └── main.js
