@@ -47,8 +47,8 @@ While building this portfolio, I focused on:
 
 If you'd like to work with me or have any questions, feel free to reach out:
 
-- 📧 Email: [ianoti130@gmail.com.com]
-- 📱 WhatsApp/Telegram: [+254 757429052]
+- 📧 Email: [ianoti130@gmail.com]
+- 📱 WhatsApp/Telegram: [+254 765429014]
 - 💬 [Contact Form on Website](#contact)
 
 ---
