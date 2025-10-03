@@ -6,6 +6,8 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/projects.css" />
+		<link rel="stylesheet" href="assets/css/work.css">
 		<!-- <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript> -->
 
 		<script src="https://www.google.com/recaptcha/api.js" async defer></script>
@@ -56,7 +58,7 @@
 								<h2 class="major">Intro</h2>
 								<span class="image main"><img src="images/pic01.jpg" alt="" /></span>
 								<p>
-									Hey again thanks for being here, I'm glad your curious to know about me. So I'm a software engineer spacialized in full-stack web development, Marketing and AI <br><br>
+									Hey again thanks for being here, I'm glad you're curious to know about me. So I'm a software engineer spacialized in full-stack web development, Marketing and AI <br><br>
 									Working on a few projects has really been inspiring and has allowed me to sharpen my skills in both frontend and backend development. 
 									I enjoy turning complex problems into simple, user-friendly solutions, and I’m always eager to learn new technologies. <br><br>
 									<!-- When I’m not coding, you can find me exploring the latest tech trends, contributing to open-source projects, or sharing my knowledge through blog posts and tutorials.  -->
@@ -71,65 +73,22 @@
 								<h2 class="major">Work</h2>
 								<span class="image main"><img src="images/pic02.jpg" alt="" /></span>
 
-								<style>
-									.dropdown-section {
-									width: 100%;
-									max-width: 600px;
-									margin: 2rem auto;
-									border-radius: 5px;
-									background-color: #00000098;
-									color: white;
-									/* font-family: sans-serif; */
-									overflow: hidden;
-									transition: all 0.3s ease;
-									/* box-shadow: 0 0 10px rgba(0,0,0,0.3); */
-									}
-
-									.dropdown-header {
-									padding: 1rem 1.5rem;
-									font-size: 1.2rem;
-									font-weight: bold;
-									background-color: #27272740;
-									cursor: pointer;
-									}
-
-									.dropdown-content {
-									max-height: 0;
-									opacity: 0;
-									transition: max-height 0.5s ease, opacity 0.5s ease;
-									padding: 0 1.5rem;
-									}
-
-									.dropdown-section:hover .dropdown-content {
-									max-height: 1000px; /* big enough to show full content */
-									opacity: 1;
-									padding-bottom: 1rem;
-									}
-									.dropdown-content p {
-									margin: 0.8rem 0;
-									line-height: 1.5;
-									}
-									.dropdown-content strong {
-									color: #9be7ff;
-									}
-								</style>
-
-
 
 								<section>
-									<h1>My Tech Stack</h1>
+									<h1>My Tech Stack (XAMPP, LAMPP OR LEMP) </h1>
 									<ul>
 										<li>HTML</li>
 										<li>CSS</li>
 										<li>JAVASCRIPT</li>
-										<!-- <li>PHP- laravel</li> -->
+										<li>PHP- laravel</li>
 										<!-- <li>React- NextJs</li> -->
 										<!-- <li>Svelte- Sveltekit</li> -->
 										<!-- <li>Node Js</li> -->
 										<!-- <li>Python</li> -->
 										<!-- <li>Google App Script</li>  -->
+										<!-- <li>Linux</li>  -->
+
 										
-										<li>I ALSO USE ARCH LINUX BY THE WAY!</li>
 									</ul>
 
 
@@ -147,13 +106,11 @@
 							<hr>
 
 
-
-
 								<section>
 									<h1>My clients</h1>
 									<!-- People I work well with -->
 									<div class="dropdown-section">
-										<div class="dropdown-header">🧠 People I Work Best With:</div>
+										<div class="dropdown-header">🚀 People I Work Best With:</div>
 										<div class="dropdown-content">
 											<p>
 												Anyone who’s ready to take action — whether you’re a small business owner, startup founder, marketer, creative, or just someone eager to make your mark online. 
@@ -201,146 +158,76 @@
 								
 								<hr>
 
-								<!-- Recent Projects -->
-								<section>
-									<h1>Recent Projects</h1>
-
-									<style>
-										/* Container that holds the gallery */
-										.container {
-										width: 560px;
-										height: 400px;
-										background: rgba(101, 101, 101, 0.142);
-										display: flex;
-										align-items: center;
-										justify-content: flex-start;
-										border-radius: 5px;
-										position: relative;
-										overflow: hidden; /* Hide overflowed image expansion */
-										margin: 0 auto;
-										}
-
-										/* Wrapper for all image previews */
-										.gallery {
-										display: flex;
-										align-items: center;
-										justify-content: center;
-										}
-
-										/* Individual image box styling */
-										.img-box {
-										width: 50px;
-										height: 300px;
-										margin: 10px;
-										border-radius: 20px;
-										position: relative;
-										transition: width 0.5s;
-										background-position: center;
-										background-size: cover;
-										}
-
-										/* Caption text inside each image box */
-										.img-box h3 {
-										color: white;
-										position: absolute;
-										bottom: 0;
-										left: 30px;
-										opacity: 0;
-										transition: bottom 0.5s, opacity 0.5s;
-										background: #000;
-										border-radius: 5px;
-										padding: 5px 10px;
-										}
-
-										/* Expand image box on hover */
-										.img-box:hover {
-										width: 400px;
-										cursor: pointer;
-										}
-
-										/* Show the caption on hover */
-										.img-box:hover h3 {
-										opacity: 1;
-										bottom: 25px;
-										}
-
-										/* Overlay message that appears when content overflows */
-										.overlay-message {
-										position: absolute;
-										top: 0;
-										left: 0;
-										width: 100%;
-										height: 100%;
-										background: rgba(0, 0, 0, 0.6);
-										color: white;
-										display: flex;
-										align-items: center;
-										justify-content: center;
-										text-align: center;
-										padding: 20px;
-										opacity: 0;
-										visibility: hidden;
-										transition: opacity 0.5s ease;
-										flex-direction: column;
-										z-index: 2;
-										}
-
-										/* Show the overlay if container has class 'show-message' */
-										.container.show-message .overlay-message {
-										opacity: 1;
-										visibility: visible;
-										}
-
-										/* Link style inside the overlay */
-										.overlay-message a {
-										color: #ffffff;
-										text-decoration: underline;
-										font-weight: bold;
-										}
-
-										.overlay-message a:hover {
-										color: #dddddd;
-										}
-									</style>
-									
+								<!-- My Work -->
 									<section>
-										<h2>Web Development</h2>
+										
+										<!-- Projects Slider -->
+
+										<h1>My Work</h1>
 										<p>
-										Below are some of the web development projects I've worked on recently.
-										Feel free to view the projects and see how I can help you with your next one. <br><br>
-										<sup>Click on the images for a live preview of the projects, also hover away to view more projects:</sup>
+											Here are some of the projects I've worked on, showcasing my skills and creativity. <br>
+											Feel free to explore and get in touch if you have any questions or feedback! <br>
+											<sub>Press shift + scroll to navigate the slides below or scroll normally on mobile to view projects</sub>
 										</p>
 
-										<div class="container">
-											<div class="gallery">
-												<!-- Add/remove as many projects as you want -->
-												<a href="#" target="_blank">
-												<div class="img-box" style="background-image: url(images/portfolio.png);">
-													<h3>My Portfolio</h3>
+										<!-- Projects Slider -->
+										<div class="slider">
+											<div class="title">
+												<h1>My Work</h1>
+											</div>
+											<div class="form">
+
+
+												<!-- Start of project slide -->
+												<div class="item">
+													<div class="content">
+														<img src="images/portfolio.png" alt="This current website">
+														<div class="des">
+															<div>My Portfolio</div>
+															<a href="https://ianotieno101.vercel.app/" target="_blank"><button>Visit</button></a>
+														</div>
+													</div>
 												</div>
-												</a>
 
-												<!-- Add new projects here -->
-												<a href="https://iron-fitness-site.vercel.app/" target="_blank">
-												<div class="img-box" style="background-image: url(images/ironfitness.png);">
-													<h3>IronFitness Website</h3>
+												<div class="item">
+													<div class="content">
+														<img src="images/ironfitness.png" alt="Iron Fitness Website">
+														<div class="des">
+															<div>Iron Fitness</div>
+															<a href="https://ironfitnesswebsite.vercel.app/" target="_blank"><button>Visit</button></a>
+														</div>
+													</div>
 												</div>
-												</a>
+												<div class="item">
+													<div class="content">
+														<img src="images/griffocreatives.png" alt="Iron Fitness Website">
+														<div class="des">
+															<div>Iron Fitness</div>
+															<a href="https://griffocreatives.vercel.app/" target="_blank"><button>Visit</button></a>
+														</div>
+													</div>
+												</div>
 
 
 
 
-												<!-- Don't exceed -->
+
+												<!-- End of projects slide -->
+
+
 											</div>
 
-										<!-- Overlay message (initially hidden) -->
-										<div class="overlay-message" id="overlayMessage">
-											<p>
-											This project preview is too big for this section.<br>
-											<a href="projects.html">View all projects</a>
-											</p>
+
 										</div>
-										</div><br>
+										<!-- JavaScript for the slider -->
+										<script src="assets/js/projects.js"></script>
+
+											<div class="projectsbtn" style="display: flex; justify-content: center; align-items: center; margin: 20px;">
+												<a href="projects.html"><button>View All projects</button></a>
+											</div>
+									</section>
+
+									<section>
 
 										<!-- Call to action -->
 										<p>
@@ -419,7 +306,7 @@
 												<div class="dropdown-header">🗂 Customize a ready made template (Quick Turnaround: less than 1 week)</div>
 												<div class="dropdown-content">
 													<p>
-														<strong>Typical Budget to invest in your business: Less than <span data-usd="170"></span></strong>
+														<strong>Most clients spend around <span data-usd="170"></span> or more, depending on what you need.</strong>
 														<br>
 														
 													</p>
@@ -438,7 +325,7 @@
 														</li>
 													</ul>
 													<p>
-														Ideal for quickly launching or testing your idea. Bundle services for less than <strong><span data-usd="200"></span></strong> to get started fast, or mix and match as needed. Not sure what fits? I can help you choose the best option!
+														Great for getting started quickly or testing an idea. You can combine services for around <strong><span data-usd="200"></span></strong>, depending on what you need. Not sure what’s best? I’m happy to help you pick the right option!
 													</p>
 												</div>
 											</div>
@@ -449,10 +336,10 @@
 												<div class="dropdown-header">💻 Small Projects (Quick Turnaround: less than 2 weeks)</div>
 												<div class="dropdown-content">
 													<p>
-														<strong>Typical Budget to invest in your business: Less than <span data-usd="300"></span></strong>
+														<strong>Most clients spend around <span data-usd="300"></span> or more for a small project, depending on what you need.</strong>
 													</p>
 													<ul>
-														<li>Web Development: <strong>from <span data-usd="100"></span>+ depending on scope of project</strong></li>
+														<li>Web Development: <strong>from <span data-usd="100"></span>/project or more depending on scope of project</strong></li>
 														<li>Automation: <strong>from <span data-usd="50"></span>/project</strong></li>
 														<li>Marketing Strategy: <strong>from <span data-usd="70"></span>/project</strong></li>
 														<li>Copywriting: <strong>from <span data-usd="30"></span>/project</strong></li>
@@ -466,8 +353,8 @@
 														</li>
 													</ul>
 													<p>
-														Bundle any of these for less than <strong><span data-usd="350"></span></strong>—perfect for launching a new site, campaign, or automation quickly, small but stable online business and affordably.<br>
-														Pick only what you need, or combine for more value.
+														You can mix and match these services for around <strong><span data-usd="350"></span></strong> or more, depending on what you need. <br>
+														Choose just one service or combine several for extra value.
 													</p>
 												</div>
 											</div>
@@ -479,10 +366,10 @@
 												<div class="dropdown-header">🚀 Large Projects (Full-Service Solutions: 1+ month)</div>
 												<div class="dropdown-content">
 													<p>
-														<strong>Typical Budget for your Investment: Less than <span data-usd="700"></span></strong>
+														<strong>Most clients spend around <span data-usd="700"></span> or more for a large project, depending on what you need.</strong>
 													</p>
 													<ul>
-														<li>Web Development: <strong>from <span data-usd="200"></span>/project</strong></li>
+														<li>Web Development: <strong>from <span data-usd="200"></span>/project or more depending on the scope of the project</strong></li>
 														<li>Automation: <strong>from <span data-usd="100"></span>/project</strong></li>
 														<li>Marketing Strategy: <strong>from <span data-usd="150"></span>/project</strong></li>
 														<li>Copywriting: <strong>from <span data-usd="50"></span>/project</strong></li>
@@ -496,8 +383,8 @@
 														</li>
 													</ul>
 													<p>
-														Bundle any of these for less than <strong><span data-usd="1000"></span></strong>—ideal for a full business website, automation, and marketing setup.<br>
-														Most clients invest <strong><span data-usd="1000"></span> – <span data-usd="2000"></span></strong> for a complete package with ongoing support.
+														You can combine these services for around <strong><span data-usd="1000"></span> or more</strong>, depending on what you need. <br>
+														Most clients spend between <strong><span data-usd="1000"></span> and <span data-usd="2000"></span></strong> for a full website, automation, and marketing setup, including support.
 													</p>
 												</div>
 											</div>
@@ -535,13 +422,12 @@
 									</section>
 
 									<p>
-										Note: These rates are simply a starting point to give you an idea of what to expect. <br>
-										Also note that my packages revolve around testing your product, wheather you're trying to launch a product, build a Saas or do some online marketing, I can help you achieve that. <br>
-										Every project is unique, and I’m always happy to work with you to find a solution that fits your needs and budget. <br>
-										If you have something specific in mind or need a custom approach, let’s chat and see how I can help!
+										Note: These prices are just a guide. <br>
+										Every project is different, so I’ll work with you to find the best option for your needs and budget. <br>
+										If you have a special request or want something custom, let’s talk!
 									</p>
 									<div>
-										<p>And if you'd like to discuss a project or have any questions, feel free to <a href="#contact">send me a message</a>!</p>
+										<p>Have a question or want to work together? <a href="#contact">Contact me</a> anytime!</p>
 									</div>
 									<!-- Call to action -->
 									<section>
@@ -609,8 +495,8 @@
 									Whether you prefer remote collaboration or hybrid-site meetings, I'm flexible and can adapt to your needs.
 								</p>
 
+								<!-- Google Maps Embed -->
 								<div style="display: flex; justify-content: center; align-items: center; margin-top: 1em; border-radius: 10px;">
-									<!-- Google Maps Embed -->
 									 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7977.638811350774!2d36.871435539379235!3d-1.282136685461498!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f13fe8fe0b525%3A0x47d304da08096789!2sUhuru%20Junction!5e0!3m2!1sen!2ske!4v1750241289980!5m2!1sen!2ske" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 								</div>
 
@@ -626,7 +512,7 @@
 									<h3>Contact Details</h3>
 									<ul>
 										<li><strong>Email:</strong> <a href="mailto:ianorezz@gmail.com">iano130@gmail.com</a></li>
-										<li><strong>Whatsapp Phone Number:</strong> <a href="tel:+254712345678">+254 757 429 052</a></li>
+										<li><strong>Whatsapp Phone Number:</strong> <a href="tel:+254757429052">+254 757 429 052</a></li>
 									</ul>
 									<h3>Location</h3>
 									<p>
@@ -636,73 +522,56 @@
 								</section>
 
 								<!-- Contact form -->
-								<form id="contactForm" method="post" action="https://docs.google.com/forms/d/e/1FAIpQLSfiQutSpZYiR62OxXGfJur0rkCeJkc0_LfslYXZJUe5a68Zdw/formResponse" autocomplete="off">
+								<form id="contactForm" method="post" action="https://api.web3forms.com/submit" autocomplete="off">
+
+									<!-- Replace with your Access Key -->
+									<input type="hidden" name="access_key" value="d095f9f5-62f4-4397-b9bb-32ff207427fb">
+
 									<div class="fields">
 										<div class="field half">
-											<label for="entry.927616440">Name</label>
-											<input type="text" name="entry.927616440" id="name" required/>
+											<label for="name">Name</label>
+											<input type="text" name="name" id="name" required/>
 										</div>
 										<div class="field half">
-											<label for="entry.637001647">Email</label>
-											<input type="email" name="entry.637001647" id="email" required/>
+											<label for="email">Email</label>
+											<input type="email" name="email" id="email" required/>
 										</div>
 										<div class="field">
-											<label for="entry.1639135811">Budget</label>
-											<input type="text" name="entry.1639135811" id="budget" placeholder="e.g. $500 - $1000 or 'Not sure yet'" required/>
+											<label for="budget">Budget</label>
+											<input type="text" name="budget" id="budget" placeholder="e.g. $500 - $1000 or 'Not sure yet'" required/>
 										</div>
 										<div class="field">
-											<label for="entry.1731807500">Message</label>
-											<textarea name="entry.1731807500" id="message" rows="4"></textarea>
+											<label for="message">Message</label>
+											<textarea name="message" id="message" rows="4"></textarea>
 										</div>
-										<!-- Honeypot field for spam prevention -->
 										<div style="display:none;">
 											<label for="website">Website</label>
 											<input type="text" name="website" id="website" tabindex="-1" autocomplete="off"/>
 										</div>
 									</div>
 
-									<!-- <div>https://developers.google.com/recaptcha/docs/invisible#auto_render</div> -->
-
-
 									<ul class="actions">
-										<li><button type="submit" class="primary" class="g-recaptcha" data-sitekey="6Ld9mWUrAAAAAD46Hwkaz1AIUBYC88h_ts_OirOG" data-callback="onSubmit">📲 Let's connect</button></li>
+										<li><button type="submit" class="primary" class="g-recaptcha" data-sitekey="6Ld9mWUrAAAAAD46Hwkaz1AIUBYC88h_ts_OirOG" data-callback="onSubmit">📲 Reach out</button></li>
 										<li><input type="reset" value="🔥 Reset" /></li>
 									</ul>
 								</form>
-								<script>
-								document.getElementById('contactForm').addEventListener('submit', function(e) {
-									// Honeypot check
-									if (document.getElementById('website').value !== "") {
-										e.preventDefault();
-										return false;
-									}
-									// Submit via AJAX to avoid Google Forms redirect
-									e.preventDefault();
-									const form = e.target;
-									const data = new FormData(form);
-									fetch(form.action, {
-										method: 'POST',
-										mode: 'no-cors',
-										body: data
-									}).then(() => {
-										window.location.href = 'thankyou.html';
-									});
-								});
-								</script>
+
 								<p>
 									Feel free to reach out if you have any questions, need assistance, or want to discuss a project. <br>
 									I'm always happy to help and look forward to hearing from you!
 								</p>
 							
 								<ul class="icons">
-									<li><a href="https://x.com/razoriano101" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-									<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-									<li><a href="https://www.instagram.com/iano_rezz/" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+									<li><a href="https://x.com/razoriano101" target="_blank" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+									<!-- <li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li> -->
+									<li><a href="https://www.instagram.com/iano_rezz/" target="_blank" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
 									<li><a href="https://github.com/Ianotieno101" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
 								</ul>
 
-
-
+								<!-- Google Maps Embed -->
+								<div style="display: flex; justify-content: center; align-items: center; margin-top: 1em; border-radius: 10px;">
+									 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7977.638811350774!2d36.871435539379235!3d-1.282136685461498!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f13fe8fe0b525%3A0x47d304da08096789!2sUhuru%20Junction!5e0!3m2!1sen!2ske!4v1750241289980!5m2!1sen!2ske" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+								</div>
 
 							</article>
 
@@ -711,8 +580,9 @@
 					</div>
 
 				<!-- Footer -->
-					<footer id="footer" style="display: none;">
-						<p class="copyright">&copy; Ian Otieno. Code Design: Inspired by HTML5up</p>
+					<footer id="footer" style="display: block;">
+						<p class="copyright">&copy; Ian Otieno. Code Design: Inspired by HTML5up.</p>
+						
 					</footer>
 
 			</div>
