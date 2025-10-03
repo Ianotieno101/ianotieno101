@@ -31,13 +31,21 @@
 						</div>
 						<div class="content">
 							<div class="inner">
-                                <h1>Page Still under maintainance</h1>
-                                <p>But you can explore my page for proof of skills</p>
+								<h1>Hey there!</h1>
+								<h2>My name is <a href="#intro">IAN OTIENO</a></h2>
+								<p>
+									I'm a web Developer specialized in building Scalable systems, Marketing Assets, Growth Engines, and Automations that helps businesses dominate the market. <br><br>
+									Seeing businesses launch and grow is what I love most about my work. And I'd love to help you do the same! <br><br>
+									In case you're wondering how I can help your business grow, Feel free to <a href="#work">Explore</a> my page to see what I do best and how I can help you achieve this in my line of work. Karibu Sana!
+								</p>
 							</div>
 						</div>
 						<nav>
 							<ul>
-								<li><a href="index.html#work">Go Back</a></li>
+								<li><a href="#intro">Intro</a></li>
+								<li><a href="#work">Work</a></li>
+								<li><a href="#about">About</a></li>
+								<li><a href="#contact">Contact</a></li>
 							</ul>
 						</nav>
 					</header>
