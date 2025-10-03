@@ -12,7 +12,6 @@ Welcome to my personal web development portfolio! This site showcases a selectio
 - **CSS3, SCSS(under the hood)**
 - **JavaScript**
 - **Responsive Design**
-- (Optional: **PHP**, **MySQL**, **Bootstrap**, etc. to be added later on, or no backend at all!)
 
 
 ## 📁 Features
